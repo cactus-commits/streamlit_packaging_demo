@@ -4,8 +4,8 @@ import streamlit as st
 st.markdown("COOL APP")
 
 pages = [
-    st.Page("pages/home.py", title = "Home")
-    st.Page("pages/raw_data.py", title = "Raw data")
+    st.Page("pages/home.py", title = "Home"),
+    st.Page("pages/raw_data.py", title = "Raw data"),
     st.Page("pages/dashboard.py", title = "Dashboard")
 ]
 
